@@ -1,0 +1,9 @@
+1.      Pin a shortcut for cmd.exe to the taskbar.
+ 
+2.      Right click the shortcut on the taskbar and you will see a list that includes “Command Prompt” and “Unpin this program from the taskbar”.
+ 
+3.      Right click the icon for Command Prompt and select properties.
+ 
+4.      In the box for Target, go to the end of “%SystemRoot%\system32\cmd.exe” and add “/C” (without quotations) and the path and name of the batch file.
+ 
+5.      Then the batch file will be pinned to the taskbar.
